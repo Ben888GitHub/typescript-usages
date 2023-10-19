@@ -95,3 +95,30 @@ employees.push(
 		emp_desg: 'heyes'
 	}
 );
+
+// * Functions
+let executeCodes = () => {
+	console.log('Hey');
+};
+
+// Function return string
+let funcReturnString = (): string => {
+	console.log('');
+	return 'hey'; // * without return string value, then it won't work. It should have a return statement and it must be string
+};
+
+// Function with multiple argument type
+let multiplyNumber = (num: number): number => {
+	// console.log()
+	return num * 2;
+};
+multiplyNumber(2);
+
+// Void function where return is restricted
+let voidFunction = (): void => {};
+
+// Multiple required args and one optional arg with ?
+let sumNumbers = (num1: number, num2: number, another?: number) => {
+	return num1 + num2;
+};
+sumNumbers(2, 3);
