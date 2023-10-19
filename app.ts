@@ -1,3 +1,5 @@
+// * https://code.visualstudio.com/docs/typescript/typescript-tutorial
+
 let variable = 'hello';
 
 // variable = 0 or variable = true will get an error, because it's a strict string
